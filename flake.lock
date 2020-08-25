@@ -1,0 +1,128 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1598338730,
+        "narHash": "sha256-8/2xSyAqUqh6YZ3FP3FhWsbAiITEQKQWGwoMmufJ7ro=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "25e1ebbe0f3a6e9e0f4b9f1a80007c65b0942900",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1598007294,
+        "narHash": "sha256-Sb7RBCYNsJtz4BtmXB5/F5PjbS5UlTdB4o8cq3+XM5U=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "d4da9bbbc9283c2f877540434b922e05f798d51f",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_3": {
+      "locked": {
+        "lastModified": 1597909278,
+        "narHash": "sha256-fZFpyPyEMPd+qp6hg3LbCYNXkKh40F2I1za8lo4BCWA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "de3780b937d2984f9b5e20d191f23be4f857b3aa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "release-20.03",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_4": {
+      "locked": {
+        "lastModified": 1597785563,
+        "narHash": "sha256-46G0Do5zSii+aaDxKjSQVo+lHBB9sxIDkb9APJL16oU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b78e08e981a9ad31036fc6c6fb880c1315b4ebea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "ogblobs": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 1598009293,
+        "narHash": "sha256-6qxozhxKYx+jcQjwuIp3pULDsy1s8ZuumtJBlAgshj8=",
+        "owner": "lboklin",
+        "repo": "noto-emoji-ogblobs",
+        "rev": "e1da11424aa735ca420bfd98a4189a7a5606a640",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lboklin",
+        "repo": "noto-emoji-ogblobs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "ogblobs": "ogblobs",
+        "tersmu": "tersmu",
+        "zbalermorna": "zbalermorna"
+      }
+    },
+    "tersmu": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_3"
+      },
+      "locked": {
+        "lastModified": 1598017544,
+        "narHash": "sha256-h2H8okOgdgzhG5zJsE2EXSW4CTEjr8LiI7KC9IfRHrA=",
+        "owner": "zugz",
+        "repo": "tersmu",
+        "rev": "a65c57d9b7e330eac85c700932c9578f81204084",
+        "type": "gitlab"
+      },
+      "original": {
+        "owner": "zugz",
+        "repo": "tersmu",
+        "type": "gitlab"
+      }
+    },
+    "zbalermorna": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_4"
+      },
+      "locked": {
+        "lastModified": 1598340015,
+        "narHash": "sha256-iI2O9pn6KZTUxOKDrq9WxwuZ+Mt+AJ03GNusljAV5k4=",
+        "owner": "lboklin",
+        "repo": "zbalermorna",
+        "rev": "910342bc183d36ce9eddfd595d4a61b0cd914229",
+        "type": "github"
+      },
+      "original": {
+        "owner": "lboklin",
+        "repo": "zbalermorna",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
